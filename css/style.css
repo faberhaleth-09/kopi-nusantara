@@ -1,0 +1,205 @@
+:root {
+    --warna-utama: #473602;
+    --warna-kedua: #291e01;
+    --warna-aksen: #fff4d1;
+    /* secara umum dapat ditulis dengan */
+    --primary-color: #2b230d;
+    --secondary-color: #1b1508;
+    --accent-color: #fbf7eb;
+}
+
+/* RESET DASAR*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* TAMPILAN UMUM */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* HEADER */
+.site-header {
+    padding: 1rem 2rem;
+    background-color: var(--warna-utama);
+    color: var(--accent-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* TAGLINE */
+.tagline {
+    font-size: 0.05 rem;
+}
+
+/* MENU */
+.main-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 0.5rem;
+    list-style: none;
+}
+
+.main-menu a {
+    color: var(--warna-aksen);
+    text-decoration: none;
+}
+
+.main-menu a:hover {
+    text-decoration: underline;
+}
+
+/* CONTENT */
+.site-content {
+    padding: 2rem;
+    text-align: left;
+    flex: 1;
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.site-content section {
+    margin-bottom: 2rem;
+}
+
+/* LOGO */
+.logo {
+    border-radius: 50px;
+    height: 95px;
+    width: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--warna-aksen);
+    border: 1px solid var(#e6d8c6);
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.product-photo {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+    background-color: var(--accent-color);
+    margin-bottom: 1rem;
+
+}
+
+.meta {
+    color: var(--primary-color);
+    font-size: 0,9rem;
+}
+
+.price {
+    font-weight: bold;
+    color: var(--secondary-color);
+    margin-top: 0,5rem;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.site-footer {
+    padding: 1rem;
+    background-color: #151106;
+    color: #cccccc;
+    text-align: center;
+    font-size: 0.85rem;
+}
+
+/* ===== Responsif ===== */
+img {
+    max-width: 100%;
+}
+@media (max-width: 600px) {
+    .site-header
+    { flex-direction: column; gap: 1rem;
+}
+.main-menu ul {
+    gap: 1rem;
+}
+.site-content {
+    padding: 1rem;
+}
+}
+
+/* Media Query: 600px artinya: media/device yang layarnya kurang dari 600px akan mengikuti aturan CSS ini */
+
+/* ===== Filter, tombol, dan formulir ===== */ 
+.filters { 
+  display: flex; 
+  gap: 0.5rem; 
+  margin: 0.75rem 0; 
+} 
+ 
+.filter { 
+  padding: 0.3rem 0.9rem; 
+  border: 1px solid var(--warna-utama); 
+  background: #ffffff; 
+  border-radius: 999px; 
+  cursor: pointer; 
+  text-transform: capitalize; 
+} 
+ 
+.filter.active { 
+  background: var(--warna-utama);
+   color: #ffffff; 
+} 
+ 
+.btn { 
+  display: inline-block; 
+  padding: 0.5rem 1.1rem; 
+  background: var(--warna-utama); 
+  color: #ffffff; 
+  border: none; 
+  border-radius: 6px; 
+  cursor: pointer; 
+} 
+ 
+form { 
+  display: grid; 
+  gap: 0.75rem; 
+  max-width: 420px; 
+  margin-top: 1rem; 
+} 
+ 
+label { 
+  display: grid; 
+  gap: 0.25rem; 
+  font-weight: bold; 
+} 
+ 
+input, 
+textarea { 
+  padding: 0.5rem; 
+  font: inherit; 
+  border: 1px solid #bbbbbb; 
+  border-radius: 4px; 
+} 
+ 
+#form-status { 
+  min-height: 1.5em; 
+  color: var(--warna-utama); 
+} 
