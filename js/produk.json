@@ -15,6 +15,10 @@
     {
       "id": "kontak",
       "label": "Kontak"
+    },
+    {
+      "id": "tentang-kami",
+      "label": "Tentang Kami"
     }
   ],
   "produk": [
