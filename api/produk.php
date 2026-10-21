@@ -26,6 +26,7 @@ if (isset($_GET['kategori']) && $_GET['kategori'] !== '') {
     $produk = array_values($produk);
 }
 
-echo json_encode($produk);  // Kembalikan data produk dalam format JSON
+
+echo json_encode($data);  // Kembalikan data produk dalam format JSON
 ?>
 
