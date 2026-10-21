@@ -9,7 +9,7 @@ let SITE, MENU, PRODUCTS;
 
 /* Langkah 4. Tambahkan fungsi pemuat data tepat di bawahnya: */
 async function muatData() {
-  const respons = await fetch("js/produk.json");
+  const respons = await fetch("data/produk.json");
 
   if (!respons.ok) {
     throw new Error("Gagal memuat data (HTTP " + respons.status + ")");
