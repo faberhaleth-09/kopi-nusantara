@@ -8,8 +8,13 @@ Hari 9, Pagi · 4 JP · UK 1.5 (utama), 1.2, 1.3, dan 1.4 */
 let SITE, MENU, PRODUCTS;
 
 /* Langkah 4. Tambahkan fungsi pemuat data tepat di bawahnya: */
-async function muatData() {
-  const respons = await fetch("data/produk.json");
+// async function muatData() {
+//   const respons = await fetch("data/produk.json");
+
+async function muatData() { 
+const respons = await fetch("api/produk.php"); 
+// ... 
+
 
   if (!respons.ok) {
     throw new Error("Gagal memuat data (HTTP " + respons.status + ")");
