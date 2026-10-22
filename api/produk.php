@@ -28,5 +28,8 @@ if (isset($_GET['kategori']) && $_GET['kategori'] !== '') {
 
 
 echo json_encode($data);  // Kembalikan data produk dalam format JSON
-?>
+
+$data = bukaJsonTerkunci(__DIR__ . "/../data/produk.json", $handle); 
+// ... ubah $data di sini (mis. kurangi stok salah satu produk) ... 
+tutupJsonTerkunci($handle, $data);
 
