@@ -31,7 +31,7 @@ alert(`Total Bayar          : Rp ${totalBayar.toLocaleString("id-ID")}`);
 
 // MATERI 1
 // for: jumlah pengulangan sudah diketahui
-for (let i = 1; i <= 5; i++) {
+/* for (let i = 1; i <= 5; i++) {
     console.log("Bungkus ke-" + i)
 }
 
@@ -107,3 +107,5 @@ const gayo = PRODUCTS.find(function (p) {
 const namaSaja = PRODUCTS.map(function (p) {
     return p.nama;
 });
+
+*/

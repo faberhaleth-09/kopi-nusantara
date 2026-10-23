@@ -32,3 +32,17 @@ const PRODUCTS = [
     kategori: "robusta", harga: 65000, 
     deskripsi: "Rasa earthy dengan aroma kacang panggang." }, 
 ]; 
+
+/*
+const namaRobusta = PRODUCTS
+// 1. Filter: Menyaring array agar hanya menyisakan objek
+.filter(function(kopi) {
+    return kopi.kategori === "Arabika";
+})
+// 2. Map: 
+.map((function) {
+    return kopi.slug;
+})
+
+console.log("Tampilkan:", namaRobusta);
+*/
