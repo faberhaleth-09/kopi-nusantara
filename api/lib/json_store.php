@@ -40,3 +40,5 @@ function tutupJsonTerkunci($handle, array $data): void {
     flock($handle, LOCK_UN);        // lepas kunci SETELAH selesai menulis 
     fclose($handle); 
 } 
+
+?>
