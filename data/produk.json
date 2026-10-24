@@ -43,7 +43,8 @@
             "harga": 80000,
             "deskripsi": "Rasa bersih dengan sentuhan karamel.",
             "foto": "img/kopi-gayo.jpg",
-            "alt": "foto produk"
+            "alt": "foto produk",
+            "stok": 100
         },
         {
             "produk_id": 3,
@@ -54,7 +55,8 @@
             "harga": 90000,
             "deskripsi": "Keasaman cerah seperti jeruk, ringan dan segar.",
             "foto": "img/kopi-kintamani.jpg",
-            "alt": "foto produk"
+            "alt": "foto produk",
+            "stok": 100
         },
         {
             "produk_id": 4,
@@ -65,7 +67,8 @@
             "harga": 88000,
             "deskripsi": "Aroma floral dengan aftertaste manis.",
             "foto": "img/kopi-bajawa.jpg",
-            "alt": "foto produk"
+            "alt": "foto produk",
+            "stok": 100
         },
         {
             "produk_id": 5,
@@ -76,7 +79,8 @@
             "harga": 60000,
             "deskripsi": "Pahit tegas dan kental, cocok untuk kopi susu.",
             "foto": "img/kopi-lampung.jpg",
-            "alt": "foto produk"
+            "alt": "foto produk",
+            "stok": 100
         },
         {
             "produk_id": 6,
@@ -87,7 +91,8 @@
             "harga": 65000,
             "deskripsi": "Rasa earthy dengan aroma kacang panggang.",
             "foto": "img/kopi-temanggung.jpg",
-            "alt": "foto produk"
+            "alt": "foto produk",
+            "stok": 100
         },
         {
             "produk_id": 7,
@@ -98,7 +103,8 @@
             "harga": 82000,
             "deskripsi": "Body full, rasa cokelat, nutty, dan sedikit rempah.",
             "foto": "img/produk.png",
-            "alt": "foto produk"
+            "alt": "foto produk",
+            "stok": 100
         },
         {
             "produk_id": 8,
@@ -109,7 +115,8 @@
             "harga": 87000,
             "deskripsi": "Keasaman cerah, aroma jeruk, body ringan.",
             "foto": "img/produk.png",
-            "alt": "foto produk"
+            "alt": "foto produk",
+            "stok": 100
         },
         {
             "produk_id": 9,
@@ -120,7 +127,8 @@
             "harga": 89000,
             "deskripsi": "Body medium, rasa rempah, floral, dan manis.",
             "foto": "img/produk.png",
-            "alt": "foto produk"
+            "alt": "foto produk",
+            "stok": 100
         },
         {
             "produk_id": 10,
@@ -131,7 +139,8 @@
             "harga": 84000,
             "deskripsi": "Rasa bersih, kompleks, body medium-full, aroma rempah.",
             "foto": "img/produk.png",
-            "alt": "foto produk"
+            "alt": "foto produk",
+            "stok": 100
         },
         {
             "produk_id": 11,
@@ -142,7 +151,8 @@
             "harga": 91000,
             "deskripsi": "Body tebal, rasa cokelat, rempah, dan buah tropis.",
             "foto": "img/produk.png",
-            "alt": "foto produk"
+            "alt": "foto produk",
+            "stok": 100
         },
         {
             "produk_id": 12,
@@ -153,7 +163,8 @@
             "harga": 62000,
             "deskripsi": "Pahit tegas, body kental, aroma kacang.",
             "foto": "img/produk.png",
-            "alt": "foto produk"
+            "alt": "foto produk",
+            "stok": 100
         },
         {
             "produk_id": 13,
@@ -164,7 +175,8 @@
             "harga": 95000,
             "deskripsi": "Body ringan, rasa cokelat, pedas, dan unik.",
             "foto": "img/produk.png",
-            "alt": "foto produk"
+            "alt": "foto produk",
+            "stok": 100
         },
         {
             "produk_id": 14,
@@ -175,7 +187,8 @@
             "harga": 61000,
             "deskripsi": "Rasa earthy, nutty, body full.",
             "foto": "img/produk.png",
-            "alt": "foto produk"
+            "alt": "foto produk",
+            "stok": 100
         },
         {
             "produk_id": 15,
@@ -186,7 +199,8 @@
             "harga": 50000,
             "deskripsi": "Rasa rumput",
             "foto": "img/produk.png",
-            "alt": "foto produk"
+            "alt": "foto produk",
+            "stok": 100
         }
     ]
 }

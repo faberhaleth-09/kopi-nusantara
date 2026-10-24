@@ -25,7 +25,7 @@ if (ada) {
     keranjang.push({
         produk_id: produk.produk_id,
         slug: produk.slug,
-        nama: produk.slug,
+        nama: produk.nama,
         harga: produk.harga,
         jumlah: 1,
     });
@@ -126,6 +126,12 @@ function pasangAksiKeranjang() {
 function pasangFormCheckout() { 
   const form     = document.getElementById("form-checkout"); 
   const statusEl = document.getElementById("status-checkout"); 
+
+// function pasangFormCheckout() {
+//     const form = document.getElementById("form-checkout");
+//     const statusEl = document.getElementById("status-checkout");
+
+//     if (!form || !statusEl) return;
  
   form.addEventListener("submit", async function (e) { 
     e.preventDefault(); 
