@@ -50,7 +50,7 @@ try {
 tidak valid."); 
         } 
         if ($dataProduk["produk"][$indeks]["stok"] < $jumlah) { 
-            throw new Exception("Stok {$dataProduk['produk'][$indeks]['nama']} tidak mencukupi 
+            throw new Exception("stok {$dataProduk['produk'][$indeks]['nama']} tidak mencukupi 
 (tersisa {$dataProduk['produk'][$indeks]['stok']})."); 
         } 
  
