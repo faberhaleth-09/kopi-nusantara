@@ -45,10 +45,10 @@ async function mulai() {
     renderProduk();
     pasangFilterProduk();
     pasangEventFormulir();
-    pasangTombolKeranjang();
     renderKeranjang();
     pasangAksiKeranjang();
     perbaruiBadgeKeranjang();
+    pasangTombolKeranjang();
   } catch (err) {
     app.innerHTML =
       '<div class="status error" role="alert"><strong>Data tidak dapat dimuat.</strong><p>' +
@@ -172,9 +172,6 @@ function pasangEventFormulir() {
     formKontak.reset();
   });
 }
-
-
-
 
 function pasangTombolKeranjang() { 
   daftarEl.addEventListener("click", function (e) { 

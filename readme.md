@@ -41,4 +41,4 @@ tersimpan di berkas JSON pada folder data/.
 
 ## BUG: H16-B01
 a. bagian keranjang saat diletakan cursor tidak berubah warna, saya bingung stylenya diubah dimana karena style tombol tersebut tidak ada di css
-b. bagian tombol tambah, kurang, dan hapus di bagian keranjang belanja tidak berfungsi sebagaimana mestinya
+b. bagian tombol tambah, kurang, dan hapus di bagian keranjang belanja tidak berfungsi sebagaimana mestinya (sudah liat vidio, disamakan semua kodenya dengan punya pak fandy tapi tetap tidak bisa berfungsi)
