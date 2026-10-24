@@ -42,3 +42,6 @@ tersimpan di berkas JSON pada folder data/.
 ## BUG: H16-B01
 a. bagian keranjang saat diletakan cursor tidak berubah warna, saya bingung stylenya diubah dimana karena style tombol tersebut tidak ada di css
 b. bagian tombol tambah, kurang, dan hapus di bagian keranjang belanja tidak berfungsi sebagaimana mestinya
+
+## BUG: H17
+a. checkout tidak bisa dilakukan, tiap melakukan checkout yang tertulis adalah "Tidak dapat terhubung ke server."

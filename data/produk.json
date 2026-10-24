@@ -31,7 +31,8 @@
             "harga": 85000,
             "deskripsi": "Body tebal, aroma rempah dan cokelat gelap.",
             "foto": "img/kopi-toraja.jpg",
-            "alt": "foto produk"
+            "alt": "foto produk",
+            "stok": 100
         },
         {
             "produk_id": 2,
