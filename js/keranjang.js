@@ -16,14 +16,14 @@ function simpanKeranjang(keranjang) {
 function tambahKeKeranjang(produk) {
     const keranjang = ambilKeranjang();
     const ada = keranjang.find(function (item) {
-        return item.id === produk.id;
+        return item.produk_id === produk.produk_id;
     });
 
 if (ada) {
     ada.jumlah += 1;
 } else {
     keranjang.push({
-        id: produk.id,
+        produk_id: produk.produk_id,
         slug: produk.slug,
         nama: produk.slug,
         harga: produk.harga,
@@ -38,14 +38,14 @@ perbaruiBadgeKeranjang();
 function ubahJumlah(produkId, delta) {
     const keranjang = ambilKeranjang();
     const item = keranjang.find(function (i) {
-        return i.id === produkId;
+        return i.produk_id === produkId;
     });
 if (!item) return;
 
 item.jumlah += delta;
 
 const keranjangBaru = item.jumlah <= 0
-    ? keranjang.filter (function (i) { return i.id !== produkId; })
+    ? keranjang.filter (function (i) { return i.produk_id !== produkId; })
     : keranjang;
 
 simpanKeranjang(keranjangBaru);
@@ -55,7 +55,7 @@ perbaruiBadgeKeranjang();
 
 function hapusDariKeranjang(produkId) {
     const keranjang = ambilKeranjang().filter(function (i) {
-        return i.id !== produkId;
+        return i.produk_id !== produkId;
     });
 simpanKeranjang(keranjang);
 renderKeranjang();
